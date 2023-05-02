@@ -12,4 +12,4 @@ function MessageModule({ messages }) {
     )
 }
 
-export default MessageModule
+export default MessageModule;
