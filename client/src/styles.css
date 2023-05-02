@@ -1,0 +1,36 @@
+.author {
+  color: rgb(59, 116, 238);
+  font-weight: bold;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(59, 116, 238);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: navy;
+  color: white;
+}
+
+.topnav a.end {
+  float: right;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
