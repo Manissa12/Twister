@@ -1,20 +1,17 @@
 import "./styles.css";
-import MessageModule from "./components/MessageModule";
-
-const MESSAGES = [
-  { content: "Je suis le premier message", author: "Bonjour" },
-  { content: "Je suis le second message", author: "Au Revoir" },
-  { content: "Je suis le troisième message", author: "Deja" },
-  { content: "Je suis le quatrième message", author: "Quoi" },
-  { content: "Je suis le cinquième message", author: "Que" }
-];
+import Login from "./components/pages/Login";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
     <div>
-      <MessageModule messages={MESSAGES} />;
+      <Login></Login>
+      <br></br>
+      <Home></Home>
     </div>
   );
 }
+
+
 
 export default App;
